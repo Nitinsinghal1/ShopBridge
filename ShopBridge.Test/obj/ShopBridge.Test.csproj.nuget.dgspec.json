@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge.Test\\ShopBridge.Test.csproj": {}
+  },
+  "projects": {
+    "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge.Test\\ShopBridge.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge.Test\\ShopBridge.Test.csproj",
+        "projectName": "ShopBridge.Test",
+        "projectPath": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge.Test\\ShopBridge.Test.csproj",
+        "packagesPath": "C:\\Users\\nsinghal\\.nuget\\packages\\",
+        "outputPath": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nsinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/NICODevOps/_packaging/NICODevOps.NICO.Artifacts/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge\\ShopBridge.csproj": {
+                "projectPath": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge\\ShopBridge.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.17.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge\\ShopBridge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge\\ShopBridge.csproj",
+        "projectName": "ShopBridge",
+        "projectPath": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge\\ShopBridge.csproj",
+        "packagesPath": "C:\\Users\\nsinghal\\.nuget\\packages\\",
+        "outputPath": "\\\\isilon\\redirection\\Desktops\\nsinghal\\Desktop\\New folder\\ShopBridge\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nsinghal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/NICODevOps/_packaging/NICODevOps.NICO.Artifacts/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "ValueInjecter": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
